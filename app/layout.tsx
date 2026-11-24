@@ -19,6 +19,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NWTB25G7"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-MTJXLR2W"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
         <Script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NWTB25G7"></Script>
         <Script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MTJXLR2W"></Script>
         <Script id="google-tag-manager-NWTB25G7">
