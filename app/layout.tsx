@@ -20,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
         <Script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MKQQ93SP"></Script>
+        <Script async src="https://www.googletagmanager.com/gtm.js?id=GTM-PXZKQ45G"></Script>
         <Script id="google-tag-manager">
           {`
             window.dataLayer = window.dataLayer || [];
